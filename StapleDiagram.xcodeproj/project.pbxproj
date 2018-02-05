@@ -13,6 +13,7 @@
 		183615F9202849470069C995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183615F8202849470069C995 /* Assets.xcassets */; };
 		183615FC202849470069C995 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183615FA202849470069C995 /* LaunchScreen.storyboard */; };
 		183615FF202849470069C995 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183615FE202849470069C995 /* main.m */; };
+		1836160720284B450069C995 /* StapleDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836160620284B450069C995 /* StapleDrawer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		183615FB202849470069C995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183615FD202849470069C995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183615FE202849470069C995 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1836160520284B450069C995 /* StapleDrawer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StapleDrawer.h; sourceTree = "<group>"; };
+		1836160620284B450069C995 /* StapleDrawer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StapleDrawer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				183615FA202849470069C995 /* LaunchScreen.storyboard */,
 				183615FD202849470069C995 /* Info.plist */,
 				183615FE202849470069C995 /* main.m */,
+				1836160520284B450069C995 /* StapleDrawer.h */,
+				1836160620284B450069C995 /* StapleDrawer.m */,
 			);
 			path = StapleDiagram;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				183615F4202849470069C995 /* ViewController.m in Sources */,
 				183615FF202849470069C995 /* main.m in Sources */,
 				183615F1202849470069C995 /* AppDelegate.m in Sources */,
+				1836160720284B450069C995 /* StapleDrawer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
