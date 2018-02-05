@@ -10,11 +10,41 @@
 
 @implementation StapleDrawer
 
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        self.staples = 3;
+        self.height = 50;
+    }
+    return self;
+}
 
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
+
+// Draws the staple diagram
 - (void)drawRect:(CGRect)rect {
-    // Drawing code
+    CGMutablePathRef linePath = CGPathCreateMutable();
+    
+    int x, y;
+    
+    x = 10;
+    
+    y = 200 - _height;
+    
+    CGPathMoveToPoint(linePath, NULL, x, 200);
+    
+    for (int i = 0; i < _staples; i++) {
+        
+        CGPathAddLineToPoint(linePath, NULL, x, y);
+        CGPathAddLineToPoint(linePath, NULL, x += 40, y);
+        CGPathAddLineToPoint(linePath, NULL, x, 200);
+        
+        if (i != _staples - 1) {
+            CGPathAddLineToPoint(linePath, NULL, x += 10, 200);
+        }
+    }
+    
+    UIBezierPath *path = [UIBezierPath bezierPathWithCGPath:linePath];
+    [path stroke];
 }
 
 

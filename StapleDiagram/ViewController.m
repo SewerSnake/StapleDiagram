@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "StapleDrawer.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    StapleDrawer *sD = [[StapleDrawer alloc] init];
+    [self.view addSubview:sD];
 }
 
 
