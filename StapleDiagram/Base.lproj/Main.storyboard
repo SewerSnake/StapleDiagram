@@ -24,11 +24,12 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="staples">
-                                        <integer key="value" value="3"/>
+                                        <integer key="value" value="6"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="height">
-                                        <integer key="value" value="86"/>
+                                        <integer key="value" value="93"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="stapleName" value="Fishing"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>

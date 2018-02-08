@@ -17,4 +17,6 @@ IB_DESIGNABLE
 
 @property (nonatomic) IBInspectable int height;
 
+@property (nonatomic) IBInspectable NSString *stapleName;
+
 @end
