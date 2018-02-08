@@ -10,11 +10,11 @@
 
 @implementation StapleDrawer
 
-- (instancetype)initWithFrame:(CGRect)frame {
-    self = [super initWithFrame:frame];
+- (instancetype)initDiagram {
+    self = [super init];
     if (self) {
-        self.staples = 3;
-        self.height = 50;
+        self.staples = 5;
+        self.height = 200;
     }
     return self;
 }

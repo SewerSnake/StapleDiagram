@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    StapleDrawer *sD = [[StapleDrawer alloc] init];
+    StapleDrawer *sD = [[StapleDrawer alloc] initDiagram];
     [self.view addSubview:sD];
 }
 

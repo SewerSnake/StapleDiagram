@@ -11,6 +11,8 @@
 IB_DESIGNABLE
 @interface StapleDrawer : UIView
 
+- (instancetype)initDiagram;
+
 @property (nonatomic) IBInspectable int staples;
 
 @property (nonatomic) IBInspectable int height;
